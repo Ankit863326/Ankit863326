@@ -5,7 +5,7 @@
 ## 🧐 About Me
 
 * 🌱 I’m currently learning **Full-Stack Web Programming**.
-* 💻 I am skilled in **C, Python, Java, and Docker**.
+* 💻 I am skilled in **C,C++, Python, Java, and Docker**.
 * 👯 I’m looking to collaborate on **Web Development projects** and open-source tools.
 * 💬 Ask me about anything related to **Data Structures & Algorithms (DSA)**, which is my favorite subject!
 * 📫 How to reach me: **rishisinghri226@gmail.com** | **[My LinkedIn Profile](https://linkedin.com/in/ankit-singh-048aa02bb)**
