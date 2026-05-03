@@ -1,0 +1,66 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#1a1b2e"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#70a5fd"/>
+      <stop offset="50%" style="stop-color:#bf91f3"/>
+      <stop offset="100%" style="stop-color:#38bdae"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .name { font-family: 'JetBrains Mono', monospace; font-size: 52px; font-weight: 700; fill: url(#nameGrad); filter: url(#glow); }
+      .role { font-family: 'JetBrains Mono', monospace; font-size: 15px; fill: #a9b1d6; letter-spacing: 4px; }
+      .tag  { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #38bdae; letter-spacing: 2px; }
+      .dot  { fill: #70a5fd; }
+      .line { stroke: #70a5fd; stroke-width: 1; opacity: 0.3; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bg)" rx="8"/>
+
+  <!-- Decorative grid lines -->
+  <line x1="0" y1="40" x2="900" y2="40" class="line"/>
+  <line x1="0" y1="180" x2="900" y2="180" class="line"/>
+  <line x1="60" y1="0" x2="60" y2="220" class="line"/>
+  <line x1="840" y1="0" x2="840" y2="220" class="line"/>
+
+  <!-- Corner decorations -->
+  <rect x="10" y="10" width="30" height="2" fill="#70a5fd" opacity="0.6"/>
+  <rect x="10" y="10" width="2" height="30" fill="#70a5fd" opacity="0.6"/>
+  <rect x="860" y="10" width="30" height="2" fill="#70a5fd" opacity="0.6"/>
+  <rect x="888" y="10" width="2" height="30" fill="#70a5fd" opacity="0.6"/>
+  <rect x="10" y="208" width="30" height="2" fill="#70a5fd" opacity="0.6"/>
+  <rect x="10" y="180" width="2" height="30" fill="#70a5fd" opacity="0.6"/>
+  <rect x="860" y="208" width="30" height="2" fill="#70a5fd" opacity="0.6"/>
+  <rect x="888" y="180" width="2" height="30" fill="#70a5fd" opacity="0.6"/>
+
+  <!-- Dot accent top -->
+  <circle cx="450" cy="25" r="3" class="dot" opacity="0.8"/>
+  <circle cx="430" cy="25" r="2" class="dot" opacity="0.4"/>
+  <circle cx="470" cy="25" r="2" class="dot" opacity="0.4"/>
+
+  <!-- Main name -->
+  <text x="450" y="120" text-anchor="middle" class="name">ANKIT SINGH</text>
+
+  <!-- Role line -->
+  <text x="450" y="150" text-anchor="middle" class="role">FULL STACK DEVELOPER  •  DSA ENTHUSIAST</text>
+
+  <!-- Tags line -->
+  <text x="450" y="172" text-anchor="middle" class="tag">// C++ | Python | Java | Docker | Web Dev | Open Source</text>
+
+  <!-- Status bar -->
+  <rect x="80" y="188" width="740" height="20" fill="#1a1b2e" rx="3"/>
+  <circle cx="100" cy="198" r="4" fill="#38bdae"/>
+  <text x="112" y="202" font-family="JetBrains Mono, monospace" font-size="10" fill="#a9b1d6">India 🇮🇳</text>
+  <text x="220" y="202" font-family="JetBrains Mono, monospace" font-size="10" fill="#70a5fd">|  B.Tech CSE (3rd Year)</text>
+  <text x="430" y="202" font-family="JetBrains Mono, monospace" font-size="10" fill="#70a5fd">|  300+ DSA Problems</text>
+  <text x="620" y="202" font-family="JetBrains Mono, monospace" font-size="10" fill="#bf91f3">|  Open to opportunities</text>
+</svg>

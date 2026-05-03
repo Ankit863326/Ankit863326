@@ -43,7 +43,7 @@ const ankit: Developer = {
   openTo            : "Internships | Collabs | Open Source",
   contact           : "rishisinghri226@gmail.com",
 };
-` ` `
+```
 
 <br clear="right"/>
 
@@ -155,15 +155,10 @@ const ankit: Developer = {
 
 <div align="center">
 
+<img src="./assets/footer.svg" alt="" width="100%"/>
+
 **`Code with intent. Build with purpose. Ship with pride.`**
 
 *Made with 🧠 + ☕ + 🎧 by Ankit Singh*
 
 </div>
-```
-
-**Two things to note:**
-
-1. The triple backtick closing the `typescript` code block — in the actual file, replace `` ` ` ` `` (with spaces) with ` ``` ` (no spaces). I had to add spaces here so it doesn't break the display.
-
-2. The `./assets/` SVG lines at the top — remove those two `<img>` lines if you don't have custom SVG assets in your repo, otherwise GitHub will show broken images.

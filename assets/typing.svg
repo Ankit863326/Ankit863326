@@ -1,0 +1,41 @@
+<svg width="700" height="50" viewBox="0 0 700 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&amp;display=swap');
+      .typing {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 18px;
+        font-weight: 600;
+        fill: #a9b1d6;
+      }
+      .prefix { fill: #38bdae; }
+      .cursor {
+        fill: #70a5fd;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      .t1 { animation: show 16s infinite; }
+      .t2 { animation: show 16s 4s infinite; }
+      .t3 { animation: show 16s 8s infinite; }
+      .t4 { animation: show 16s 12s infinite; }
+      @keyframes show {
+        0%   { opacity: 1; }
+        22%  { opacity: 1; }
+        25%  { opacity: 0; }
+        97%  { opacity: 0; }
+        100% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect width="700" height="50" fill="#0d1117" rx="6"/>
+
+  <text x="20" y="32" class="typing">
+    <tspan class="prefix">&gt; </tspan>
+    <tspan class="t1">Building scalable web apps 🌐</tspan>
+    <tspan class="t2" style="opacity:0">Solving DSA problems daily 🧩</tspan>
+    <tspan class="t3" style="opacity:0">Learning Full-Stack Development 🚀</tspan>
+    <tspan class="t4" style="opacity:0">Open to internships &amp; collabs 🤝</tspan>
+    <tspan class="cursor">_</tspan>
+  </text>
+</svg>
