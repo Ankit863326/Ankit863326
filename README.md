@@ -124,7 +124,13 @@ const ankit: Developer = {
 </div>
 
 ---
+<div align="center">
 
+<img src="https://raw.githubusercontent.com/Ankit863326/Ankit863326/output/snake.svg" alt="Snake animation" />
+
+</div>
+
+---
 ## 💬 Favourite Quote
 
 <div align="center">
