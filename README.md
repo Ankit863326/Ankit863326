@@ -113,7 +113,7 @@ const ankit: Developer = {
 
 <div align="center">
 
-<img width="68%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ankit863326&theme=tokyonight&hide_border=true&background=0d1117&ring=70a5fd&fire=ff7b72&currStreakLabel=70a5fd&sideLabels=a9b1d6&dates=a9b1d6"/>
+<img width="68%" src="https://streak-stats.demolab.com/?user=Ankit863326&theme=tokyonight&hide_border=true&background=0d1117&ring=70a5fd&fire=ff7b72&currStreakLabel=70a5fd&sideLabels=a9b1d6&dates=a9b1d6"/>
 
 </div>
 
